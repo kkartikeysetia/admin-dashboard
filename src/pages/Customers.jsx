@@ -1,3 +1,4 @@
+/* eslint-disable no-trailing-spaces */
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/self-closing-comp */
 /* eslint-disable react/jsx-boolean-value */
@@ -219,16 +220,6 @@ const Customers = () => {
               </GridComponent>
             </div>
           </div>
-        </div>
-
-        {/* Footer */}
-        <div className="mt-8 text-center">
-          <p className="text-slate-500 text-sm">
-            Last updated: {new Date().toLocaleDateString()} •
-            <span className="text-indigo-600 font-medium ml-1">
-              Data Management System v2.0
-            </span>
-          </p>
         </div>
       </div>
 

@@ -1,13 +1,19 @@
+/* eslint-disable no-irregular-whitespace */
+/* eslint-disable no-undef */
+/* eslint-disable import/named */
+/* eslint-disable import/no-duplicates */
 /* eslint-disable comma-dangle */
 import React from "react";
 import { BsCurrencyDollar } from "react-icons/bs";
-import { GoPrimitiveDot } from "react-icons/go";
+import { GoDot } from "react-icons/go";
 import { IoIosMore } from "react-icons/io";
 import { DropDownListComponent } from "@syncfusion/ej2-react-dropdowns";
+/* ---------- IMPORT at top of Ecommerce.jsx ---------- */
 
 import { Stacked, Pie, Button, LineChart, SparkLine } from "../components";
 import {
   earningData,
+  // eslint-disable-next-line no-unused-vars
   medicalproBranding,
   recentTransactions,
   weeklyStats,
@@ -54,12 +60,54 @@ const Ecommerce = () => {
                 Earnings
               </p>
               <p className="text-4xl font-bold mb-6">$63,448.78</p>
-              <Button
-                color="white"
-                bgColor={currentColor}
-                text="Download"
-                borderRadius="12px"
-              />
+              {/* assignment badge – replace ↓ placeholders with your info */}
+              {/* assignment badge */}
+              <div className="mt-4 w-80 bg-blue-50 border-2 border-gray-300 rounded-xl px-4 py-3 text-sm shadow-sm">
+                <p className="uppercase tracking-wide text-[10px] text-amber-600 mb-2">
+                  assignment submitted by
+                </p>
+
+                <p>
+                  <span className="font-semibold">Name:</span> Kartikey
+                </p>
+
+                <p>
+                  <span className="font-semibold">Deployed link:</span>{" "}
+                  <a
+                    href="https://admin-dashboard-kartikey.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:underline"
+                  >
+                    admin-dashboard-kartikey.vercel.app
+                  </a>
+                </p>
+
+                <p>
+                  <span className="font-semibold">GitHub:</span>{" "}
+                  <a
+                    href="https://github.com/kkartikeysetia/admin-dashboard"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:underline"
+                  >
+                    github.com/kkartikeysetia/admin-dashboard
+                  </a>
+                </p>
+
+                <p>
+                  <span className="font-semibold">Unique features / USP:</span>{" "}
+                  {`Modern pastel theme
+Light/Dark toggle 🌗
+Live theme color picker 🖌️
+Real-time Theme Designer
+Animated Page Transitions ✨
+Universal Fuzzy Search 🔍
+Layout Persistence 💾
+`}
+                  {/* … */}
+                </p>
+              </div>
             </div>
             <div
               style={{ backgroundColor: currentColor }}
@@ -185,11 +233,11 @@ const Ecommerce = () => {
             <h2 className="text-2xl font-bold">Revenue Analytics</h2>
             <div className="flex items-center space-x-4">
               <div className="flex items-center space-x-2 text-sm">
-                <GoPrimitiveDot className="text-gray-400" />
+                <GoDot className="text-gray-400" />
                 <span className="text-gray-600">Expense</span>
               </div>
               <div className="flex items-center space-x-2 text-sm">
-                <GoPrimitiveDot className="text-green-500" />
+                <GoDot className="text-green-500" />
                 <span className="text-green-500">Revenue</span>
               </div>
             </div>
@@ -349,7 +397,7 @@ const Ecommerce = () => {
           </div>
 
           <div className="bg-white bg-opacity-20 rounded-lg px-3 py-1 text-xs font-semibold inline-block mb-4">
-            16 APR, 2021
+            9 June, 2025
           </div>
 
           <div className="mb-4">
@@ -358,34 +406,19 @@ const Ecommerce = () => {
               src={product9}
               alt="Project"
             />
-            <h4 className="font-bold text-lg mb-2">React 18 Launch</h4>
-            <p className="text-sm opacity-90">By Development Team</p>
+
+            <p className="text-sm opacity-90">By Kartikey</p>
           </div>
 
           <div className="mb-4">
             <p className="text-sm opacity-80 leading-relaxed">
-              Exciting new features and performance improvements coming to
-              React18. Stay tuned for major updates!
+              Welcome to ShopHub, a stunning and feature-rich admin dashboard
+              built with React.js, Tailwind CSS, and the powerful Syncfusion
+              component library. This project is a comprehensive solution for
+              offering a wide array of features from data visualization to
+              application management, all wrapped in a beautiful, customizable,
+              and responsive UI.
             </p>
-          </div>
-
-          <div className="flex justify-between items-center">
-            <Button
-              color="white"
-              bgColor="rgba(255,255,255,0.2)"
-              text="Learn More"
-              borderRadius="10px"
-            />
-            <div className="flex -space-x-2">
-              {medicalproBranding.leaders.slice(0, 3).map((leader, idx) => (
-                <img
-                  key={idx}
-                  className="w-8 h-8 rounded-full border-2 border-white"
-                  src={leader.image}
-                  alt="Team member"
-                />
-              ))}
-            </div>
           </div>
         </div>
       </div>

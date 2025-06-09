@@ -256,14 +256,6 @@ const Orders = () => {
                   Search, edit, and manage order records
                 </p>
               </div>
-              <div className="flex items-center gap-3 mt-4 md:mt-0">
-                <span className="bg-green-100 text-green-700 px-3 py-1 rounded-lg text-sm font-medium">
-                  Editable
-                </span>
-                <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-lg text-sm font-medium">
-                  Searchable
-                </span>
-              </div>
             </div>
 
             {/* Search and Controls */}
@@ -304,9 +296,6 @@ const Orders = () => {
                   className="bg-white border border-slate-300 px-4 py-3 rounded-xl hover:bg-slate-50 transition-all duration-300 flex items-center justify-center gap-2 text-slate-700 w-1/2 lg:w-auto"
                 >
                   <span className="text-lg">📥</span> Export
-                </button>
-                <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-xl flex items-center justify-center gap-2 transition-all duration-300 transform hover:scale-105 shadow-lg w-1/2 lg:w-auto">
-                  <span className="text-xl">+</span> New Order
                 </button>
               </div>
             </div>

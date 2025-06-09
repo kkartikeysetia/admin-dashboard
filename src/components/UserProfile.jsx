@@ -4,7 +4,7 @@ import { MdOutlineCancel } from "react-icons/md";
 import { Button } from ".";
 import { userProfileData } from "../data/dummy";
 import { useStateContext } from "../contexts/ContextProvider";
-import avatar from "../data/avatar.jpg";
+import picture from "../data/picture.jpg";
 
 const UserProfile = () => {
   const { currentColor } = useStateContext();
@@ -29,18 +29,16 @@ const UserProfile = () => {
       {/* avatar & details */}
       <div className="mt-8 flex flex-col items-center gap-3 text-center">
         <img
-          src={avatar}
+          src={picture}
           alt="user-profile"
           className="h-28 w-28 rounded-full object-cover shadow-card"
         />
         <p className="text-xl font-semibold text-text-main dark:text-gray-200">
-          Michael&nbsp;Roberts
+          &nbsp;Kartikey
         </p>
-        <p className="text-sm text-text-muted dark:text-gray-400">
-          Administrator
-        </p>
+        <p className="text-sm text-text-muted dark:text-gray-400">student</p>
         <p className="text-sm font-medium text-text-muted dark:text-gray-400">
-          info@shop.com
+          Kartikeysetia22@gmail.com
         </p>
       </div>
 
