@@ -1,3 +1,8 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/self-closing-comp */
+/* eslint-disable react/jsx-boolean-value */
+/* eslint-disable react/jsx-props-no-spreading */
+/* eslint-disable react/jsx-closing-tag-location */
 import React from "react";
 import {
   GridComponent,

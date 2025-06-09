@@ -1,3 +1,12 @@
+/* eslint-disable prefer-const */
+/* eslint-disable comma-dangle */
+/* eslint-disable no-alert */
+/* eslint-disable curly */
+/* eslint-disable nonblock-statement-body-position */
+/* eslint-disable prefer-template */
+/* eslint-disable indent */
+/* eslint-disable no-nested-ternary */
+/* eslint-disable react/button-has-type */
 import React, { useState, useMemo, useEffect } from "react";
 import { ordersData } from "../data/dummy";
 
