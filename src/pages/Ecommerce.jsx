@@ -1,3 +1,4 @@
+/* eslint-disable comma-dangle */
 import React from "react";
 import { BsCurrencyDollar } from "react-icons/bs";
 import { GoPrimitiveDot } from "react-icons/go";
@@ -364,7 +365,7 @@ const Ecommerce = () => {
           <div className="mb-4">
             <p className="text-sm opacity-80 leading-relaxed">
               Exciting new features and performance improvements coming to
-              React 18. Stay tuned for major updates!
+              React18. Stay tuned for major updates!
             </p>
           </div>
 
