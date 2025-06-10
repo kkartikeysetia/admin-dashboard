@@ -2,10 +2,6 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   darkMode: "class",
   theme: {
-    // fontFamily: {
-    //   display: ["Open Sans", "sans-serif"],
-    //   body: ["Open Sans", "sans-serif"],
-    // },
     fontFamily: {
       heading: ["Poppins", "ui-sans-serif", "system-ui"],
       body: ["Public Sans", "ui-sans-serif", "system-ui"],
@@ -40,13 +36,7 @@ module.exports = {
       fontSize: {
         14: "14px",
       },
-      // backgroundColor: {
-      //   "main-bg": "#EFF6FF",
-      //   "main-dark-bg": "#1E3A8A",
-      //   "secondary-dark-bg": "#1D4ED8",
-      //   "light-gray": "#F9FAFB",
-      //   "half-transparent": "rgba(0, 0, 0, 0.5)",
-      // },
+
       backgroundColor: {
         "main-bg": "#F5F7FC", // page backdrop
         "light-gray": "#FAFAFA", // hover & cards
